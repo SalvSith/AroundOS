@@ -266,7 +266,9 @@ local-assets/               Ignored, locally supplied assets and build inputs
 
 ## Licensing and credits
 
-Original AroundOS software and original project assets are available under the [AroundOS Noncommercial License](LICENSE). Projects incorporating them must be free of charge and may not earn revenue. The enclosure design retains JN-Husch’s CC BY-NC-SA 4.0 license. Fonts, dependencies and other third-party materials retain their own terms. See [third-party notices](THIRD_PARTY_NOTICES.md).
+AroundOS is open-source software. You can use, modify, distribute, and sell the original AroundOS software under the [MIT License](LICENSE). Keep the copyright and license notice with copies or substantial portions. MIT also covers original AroundOS documentation and artwork unless a separate license is listed.
+
+Third-party materials remain subject to their owners’ terms. For example, the bundled Rubik font uses the SIL Open Font License, and the included enclosure design uses JN-Husch’s CC BY-NC-SA 4.0 license. To sell a device using that enclosure design, obtain separate permission from its owner or choose a design that permits commercial use. See the [third-party notices](THIRD_PARTY_NOTICES.md).
 
 AroundOS builds on Raspberry Pi OS, Debian, labwc, wf-panel-pi, GTK, GIO, Cairo, WebKitGTK, GStreamer, BlueZ and other upstream software, each under its own license. Thanks to JN-Husch for the printable display enclosure.
 

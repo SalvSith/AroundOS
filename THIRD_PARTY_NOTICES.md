@@ -1,6 +1,6 @@
 # Third-party notices and asset scope
 
-The root software license covers original AroundOS code and original project assets unless separately licensed. It does not relicense third-party software, trademarks, fonts, media or the enclosure.
+The [MIT License](LICENSE) covers original AroundOS code and original project assets unless separately licensed. Third-party owners retain their rights. Use their material under its applicable license or obtain permission from the rights holder. Attribution alone does not grant permission.
 
 | Material | Source / treatment |
 | --- | --- |
