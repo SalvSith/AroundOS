@@ -49,8 +49,6 @@ It runs on **Raspberry Pi OS**, using the existing labwc Wayland desktop, GTK an
 | NavCon | Optional Sony Navigation Controller input with configurable profiles |
 | Dial | Optional integration with the separate Dial watch-face application |
 
-![AroundOS app launcher beside the words “A new world of possibilities.”](docs/round-desktop/possibilities.jpg)
-
 ## Hardware
 
 The desktop targets this hardware:
@@ -77,6 +75,8 @@ The main installer manages per-user configuration and records a baseline backup.
 Run the installer as the Linux user who owns the desktop session. If upgrading from an earlier branding, keep your previous checkout and backups. Use that checkout’s restore command before installing this version so the new installer backs up the original desktop configuration. Existing app preferences and backups use the earlier directory names.
 
 ## Getting started
+
+![AroundOS app launcher beside the words “A new world of possibilities.”](docs/round-desktop/possibilities.jpg)
 
 ### 1. Prepare Raspberry Pi OS
 
