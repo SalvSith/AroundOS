@@ -1,7 +1,5 @@
 # AroundOS
 
-[![Watch the AroundOS preview](docs/aroundos-preview.jpg)](video/aroundos-preview.mp4)
-
 https://github.com/user-attachments/assets/352ab0b6-60f3-4a14-8f67-3f1d3267b9ca
 
 [Read the setup guide](Enclosure%203D%20Print%20Files/Assembly%20Manual/AroundOS%20Assembly%20Manual.pdf)
@@ -69,8 +67,6 @@ Configure the round panel on `HDMI-A-1` at **1080 × 1080** and **scale 1**.
 Other boards, screens, display names, scaling factors and desktop environments have not been validated. The installer checks the output name, resolution and scale before changing the desktop.
 
 ## How it works
-
-![Enclosure exploded view](Enclosure%203D%20Print%20Files/Enclosure%20Explode.webp)
 
 AroundOS combines Python GTK applications with a native C module that adapts panel and overlay surfaces. GTK/GIO handles native controls and filesystem integration; Cairo draws circular surfaces. labwc remains the compositor, wf-panel-pi remains the panel, and PCManFM remains available for classic file-management operations.
 
@@ -151,6 +147,8 @@ ssh YOUR_PI_USER@YOUR_PI_HOST
 
 ## Using AroundOS
 
+[![Watch the AroundOS preview](docs/aroundos-preview.jpg)](video/aroundos-preview.mp4)
+
 - Open **Apps** from the launcher, search for an application or swipe between pages.
 - The home dock appears on the desktop. Running applications remain accessible from the top bar.
 - Hover or slide across dock icons to magnify them. Hold an icon deliberately before rearranging it.
@@ -163,6 +161,8 @@ ssh YOUR_PI_USER@YOUR_PI_HOST
 Screenshots use the XDG Pictures directory under `Screenshots`; recordings are saved under `~/Videos/Recordings`. Recordings have transparent circular corners and no audio. Export can take time on a Pi; the indicator changes to amber while saving.
 
 ## 3D-printed enclosure
+
+![Enclosure exploded view](Enclosure%203D%20Print%20Files/Enclosure%20Explode.webp)
 
 The included enclosure is **“Case for round Waveshare 5in Display” by [JN-Husch (@JNHusch)](https://www.printables.com/@JNHusch)**.
 
