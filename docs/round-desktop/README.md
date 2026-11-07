@@ -24,9 +24,17 @@ The installer records its baseline under the path referenced by `~/.local/state/
 
 The launcher reads installed desktop entries. Search for an app or swipe between pages. Open Utilities for the grouped system tools. Tap the Home button to minimize windows and show the desktop. The dock appears on the home screen. Running apps remain accessible through the top bar.
 
-![AroundOS apps launcher](apps-sf.png)
+![Apps](apps-sf.png)
+
+![Local preview of the circular Settings grid](settings-grid.png)
 
 Files supports folder navigation, search, sorting, hidden files and launching the system default app for a file. **Open classic Files** opens PCManFM for file operations. Photos provides pinch-to-zoom, panning and fullscreen viewing. Use Escape or the two-finger hold to exit fullscreen.
+
+![Photos](photos-sf.png)
+
+![Home](home-sf.png)
+
+![Preview of seven successive hovers on the home dock](dock-motion-preview.gif)
 
 ## Text Editor
 
