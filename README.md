@@ -1,5 +1,9 @@
 # AroundOS
 
+[![Watch the AroundOS preview](docs/aroundos-preview.jpg)](video/aroundos-preview.mp4)
+
+https://github.com/user-attachments/assets/352ab0b6-60f3-4a14-8f67-3f1d3267b9ca
+
 [Read the setup guide](Enclosure%203D%20Print%20Files/Assembly%20Manual/AroundOS%20Assembly%20Manual.pdf)
 
 **A circular desktop experience for Raspberry Pi.**
@@ -144,10 +148,6 @@ ssh YOUR_PI_USER@YOUR_PI_HOST
 ```
 
 ## Using AroundOS
-
-https://github.com/user-attachments/assets/352ab0b6-60f3-4a14-8f67-3f1d3267b9ca
-
-[![Watch the AroundOS preview](docs/aroundos-preview.jpg)](video/aroundos-preview.mp4)
 
 - Open **Apps** from the launcher, search for an application or swipe between pages.
 - The home dock appears on the desktop. Running applications remain accessible from the top bar.
