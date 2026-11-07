@@ -12,8 +12,6 @@ AroundOS turns a Raspberry Pi and a round touchscreen into a small desktop desig
 
 It runs on **Raspberry Pi OS**, using the existing labwc Wayland desktop, GTK and Linux services. It is a desktop customization and application suite, not a standalone Linux distribution or a flashable OS image.
 
-> **Project status:** experimental, hardware-specific software under active development. A clean installation and restore on a second Pi still need verification.
-
 ![AroundOS home dock animation](docs/round-desktop/dock-motion-preview.gif)
 
 ## Contents
