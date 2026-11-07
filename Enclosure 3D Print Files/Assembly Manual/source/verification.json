@@ -1,0 +1,77 @@
+{
+  "created": "2026-11-07",
+  "method": "OpenCascade HLR for supplied enclosure/screen CAD and simplified illustrative Pi/hardware; ReportLab vector PDF",
+  "inputs": [
+    {
+      "filename": "holder-plate-v4r2.step",
+      "sha256": "74b7694feb13f258801a2d6a5571d93b15b3a54aea8a015aa4f65a12f4cd50d6"
+    },
+    {
+      "filename": "Desk Mount Base V4R2.step",
+      "sha256": "835114e77d04625bb3875220b2339cc99e5b2d6e53ed25c4c569fb4f12f77fea"
+    },
+    {
+      "filename": "Desk Mount Connector V4R2.step",
+      "sha256": "10b50fad3fac66a903a7cd2583f30e34189c16db2145d1eb0413278b52e84311"
+    },
+    {
+      "filename": "front-case-v4r2.step",
+      "sha256": "619cfa1c5102f3b4561f1ce9b75d9fe10937617f44ae445dcb5791cbdee60281"
+    },
+    {
+      "filename": "Rear Plate V4R2.step",
+      "sha256": "16a90175aa8d49f0b0a33351a82bb964fc4533b0b3da07603ba158852084ef3b"
+    },
+    {
+      "filename": "5inch-1080x1080-lcd-sku24369.stp",
+      "sha256": "89853d5764c787bc2c9e736a7491f97370a4115483843746f127e9cbd8d80374"
+    },
+    {
+      "filename": "5inch-1080x1080-LCD-details-17.jpg",
+      "sha256": "4c62cbf4f833ae09884fa468b10f7e639ca24295a746b83dc166b0f762f5db50"
+    }
+  ],
+  "checks": {
+    "pdf_pages": 14,
+    "all_pages_visually_reviewed": true,
+    "input_enclosure_checksums": "11 of 11 original files match SHA256SUMS",
+    "physical_assembly_tested": false,
+    "powered_hardware_tested": false,
+    "power_and_signal_routes": "Pi USB-C power; Pi HDMI0 to screen HDMI port 3; Pi USB-A to screen USB-C Touch port 5",
+    "mount_pattern_mm": [
+      58,
+      49
+    ],
+    "brand_accent": "#A3F66A",
+    "single_line_cover_title": true,
+    "title_case_headings": true,
+    "cover_exploded_order": [
+      "A",
+      "B",
+      "P",
+      "C",
+      "D"
+    ],
+    "assembly_sequence": [
+      "Attach Pi to screen",
+      "Connect HDMI and USB touch; bench test with power only into Pi",
+      "Check connected unit",
+      "Prepare enclosure",
+      "Seat connected unit",
+      "Fit holder",
+      "Close cover and fit stand",
+      "Start AroundOS"
+    ],
+    "screen_power_option_removed": true,
+    "embedded_typefaces": [
+      "Rubik-Regular",
+      "Rubik-Bold"
+    ]
+  },
+  "notes": [
+    "User confirmed supplied spacers and screws. Pi and hardware illustrations are simplified; drawn spacer heights and exploded gaps are illustrative, not specifications.",
+    "Screen rear port labels match user-supplied details-17 photograph. Main build leaves screen power input 4 unused.",
+    "Physical fit, cooling, cable clearance and powered assembly remain unverified. Screen STEP not redistributed; EXE not executed."
+  ],
+  "revision": "1.2"
+}

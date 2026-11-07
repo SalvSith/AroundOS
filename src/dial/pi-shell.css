@@ -1,0 +1,9 @@
+/* The upstream close button sits outside a physical circular display. */
+#wf-close {
+  top: calc(50% - min(37vmin, 400px));
+  right: auto;
+  left: calc(50% - 26px);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}

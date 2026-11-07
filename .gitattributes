@@ -1,0 +1,5 @@
+# Preserve original CAD bytes and avoid textual diffs/line-ending conversion.
+*.stl binary
+*.step binary
+# Preserve the upstream legal text verbatim.
+"Enclosure 3D Print Files/LICENSE.txt" -whitespace

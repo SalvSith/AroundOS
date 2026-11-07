@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-42.9246 -21.5181 85.8492 43.0362"><title>Part F: Desk Mount Base V4R2, front CAD view</title><g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="-19.7621,-11.4571 -17.1815,-12.7016 -14.0747,-13.71 -10.5609,-14.4434 -6.7754,-14.8737 -2.8635,-14.9843 1.0244,-14.771 4.7389,-14.242 8.1373,-13.4177"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="8.1373,-13.4177 32.5493,-6.0655"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="32.5493,-6.0655 36.0538,-4.7188 38.7079,-3.0622 40.3625,-1.1886 40.7836,-0.2031 40.9246,0.7965"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="-40.9246,3.7373 -40.6846,2.435 -39.9705,1.1639 -38.7993,-0.0455 -37.1992,-1.1641"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="-37.1992,-1.1641 -19.7621,-11.4571"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="27.3388,-3.3162 3.6592,-10.4478"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="3.6592,-10.4478 1.5667,-9.2127"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="1.5667,-9.2127 12.1453,-6.0267"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="12.1453,-6.0267 4.522,-1.5268"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="4.522,-1.5268 7.0446,-0.7671"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="7.0446,-0.7671 14.6678,-5.267"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="14.6678,-5.267 25.2464,-2.0811"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="25.2464,-2.0811 27.3388,-3.3162"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="3.6592,-13.1163 3.6592,-10.4478"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="1.5667,-13.7465 1.5667,-9.2127"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="12.1453,-8.3118 12.1453,-6.0267"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="4.522,-6.0606 4.522,-1.5268"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="7.0446,-5.3009 7.0446,-0.7671"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="14.6678,-9.8008 14.6678,-5.267"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="25.2464,-6.6149 25.2464,-2.0811"/>
+<polyline stroke="#b8c3c7" stroke-width="0.12" stroke-dasharray="1.2 1.2" points="27.3388,-7.8501 27.3388,-3.3162"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="40.9246,0.7965 40.6846,2.0988 39.9705,3.37 38.7993,4.5793 37.1992,5.6979"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="37.1992,5.6979 19.7621,15.9909"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="19.7621,15.9909 17.1815,17.2354 14.0747,18.2438 10.5609,18.9772 6.7754,19.4075 2.8635,19.5181 -1.0244,19.3048 -4.7389,18.7759 -8.1373,17.9515"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="-8.1373,17.9515 -32.5493,10.5993"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="-32.5493,10.5993 -36.0538,9.2527 -38.7079,7.596 -40.3625,5.7225 -40.7836,4.7369 -40.9246,3.7373"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="-19.7621,-15.9909 -17.1815,-17.2354 -14.0747,-18.2438 -10.5609,-18.9772 -6.7754,-19.4075 -2.8635,-19.5181 1.0244,-19.3048 4.7389,-18.7759 8.1373,-17.9515"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="-19.7621,-15.9909 -37.1992,-5.6979"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="-32.5493,6.0655 -36.0538,4.7188 -38.7079,3.0622 -40.3625,1.1886 -40.7836,0.2031 -40.9246,-0.7965"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="-40.9246,-0.7965 -40.6846,-2.0988 -39.9705,-3.37 -38.7993,-4.5793 -37.1992,-5.6979"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="-32.5493,6.0655 -8.1373,13.4177"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="32.5493,-10.5993 36.0538,-9.2527 38.7079,-7.596 40.3625,-5.7225 40.7836,-4.7369 40.9246,-3.7373"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="40.9246,-3.7373 40.6846,-2.435 39.9705,-1.1639 38.7993,0.0455 37.1992,1.1641"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="32.5493,-10.5993 8.1373,-17.9515"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="19.7621,11.4571 17.1815,12.7016 14.0747,13.71 10.5609,14.4434 6.7754,14.8737 2.8635,14.9843 -1.0244,14.771 -4.7389,14.242 -8.1373,13.4177"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="3.6592,-14.9816 3.6592,-13.1163"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="3.6592,-14.9816 1.5667,-13.7465"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="1.5667,-13.7465 12.1453,-10.5606"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="12.1453,-10.5606 12.1453,-8.3118"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="12.1453,-10.5606 4.522,-6.0606"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="4.522,-6.0606 7.0446,-5.3009"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="7.0446,-5.3009 14.6678,-9.8008"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="14.6678,-9.8008 25.2464,-6.6149"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="25.2464,-6.6149 27.3388,-7.8501"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="27.3388,-7.8501 3.6592,-14.9816"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="19.7621,11.4571 37.1992,1.1641"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="-40.9246,3.7373 -40.9246,-0.7965"/>
+<polyline stroke="#16353b" stroke-width="0.25" points="40.9246,0.7965 40.9246,-3.7373"/>
+</g></svg>

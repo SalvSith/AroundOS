@@ -1,0 +1,150 @@
+{
+  "title": "Build Your AroundOS Computer",
+  "revision": "V4R2 / Guide 1.2 / 07 November 2026",
+  "scope": "Waveshare SKU 24369 display enclosure, desk stand and Raspberry Pi 4 mounted to the screen with the supplied spacers and screws.",
+  "parts": [
+    [
+      "A",
+      "Front Case",
+      "front-case-v4r2.stl",
+      "1",
+      "The deep outer shell and front opening."
+    ],
+    [
+      "B",
+      "Display Module",
+      "5inch-1080x1080-lcd-sku24369.stp",
+      "1",
+      "Purchased Waveshare screen; keep its factory assembly intact."
+    ],
+    [
+      "C",
+      "Holder Plate",
+      "holder-plate-v4r2.stl",
+      "1",
+      "The open retaining ring behind the display."
+    ],
+    [
+      "D",
+      "Rear Plate",
+      "Rear Plate V4R2.stl",
+      "1",
+      "The rear cover with cable opening and mount features."
+    ],
+    [
+      "E",
+      "Stand Connector",
+      "desk-mount-connector-v4r2.stl",
+      "1",
+      "The small link between rear cover and base."
+    ],
+    [
+      "F",
+      "Desk Base",
+      "Desk Mount Base V4R2.stl",
+      "1",
+      "The flat foot of the desk stand."
+    ]
+  ],
+  "steps": [
+    {
+      "title": "Attach the Pi to the Screen",
+      "intro": "Use the screen's supplied spacers and screws. Work with power disconnected and the screen supported face down on a clean, soft surface.",
+      "actions": [
+        "Prepare Raspberry Pi OS 64-bit Desktop on a microSD card and insert it into the Pi. Keep a keyboard or SSH access available for the bench test.",
+        "Identify the four Pi mounting points on the screen PCB shown on page 4. Use these, not the outer round-plate bosses. Leave the screen factory screws in place.",
+        "Fit the four supplied spacers to those mounting points. Start them by hand and seat them evenly without forcing the threads.",
+        "Lower the Pi onto the spacers with its components facing away from the screen. Keep its USB-A and Ethernet bank toward the right and align all four holes.",
+        "Fit the supplied screws through the Pi into the spacers. Start all four, then tighten gently in a diagonal sequence until the board is secure and flat."
+      ],
+      "check": "All four holes line up, every spacer is seated, and the Pi is held without bending or touching the display electronics.",
+      "note": "Spacer height and screw length are not specified here; use the supplied matching set. Exploded gaps are enlarged for clarity."
+    },
+    {
+      "title": "Wire and Test on the Bench",
+      "intro": "Connect and test the Pi while it is mounted to the screen, before starting the enclosure. Power connects only to the Raspberry Pi.",
+      "actions": [
+        "Connect Pi micro-HDMI port HDMI0 to the screen's standard HDMI input. Use a micro-HDMI-to-HDMI cable or the matching adapter.",
+        "Connect a Pi USB-A port to the screen's USB-C Touch port with a data-capable cable. HDMI alone does not provide touch.",
+        "Connect the power supply only to the Pi USB-C power input, after HDMI and USB touch are connected. Leave screen port 4 unused.",
+        "Boot, confirm an image and test touch at 1080 x 1080, approximately 60 Hz. Shut down and unplug the Pi power supply; keep HDMI and USB touch connected for enclosure assembly."
+      ],
+      "check": "The screen displays the desktop and touch follows your finger before any cover is fitted.",
+      "note": "Power Supply > Raspberry Pi USB-C. Video > screen HDMI port 3. Touch > screen USB-C port 5 to Pi USB-A."
+    },
+    {
+      "title": "Check the Connected Assembly",
+      "intro": "The Pi is now attached and connected to the screen. Finish these checks before preparing or fitting any enclosure parts.",
+      "actions": [
+        "With the Pi power supply unplugged, check both ends of HDMI and USB touch are fully seated. Keep these two leads connected through the case assembly steps.",
+        "Inspect the gap between the boards. The Pi must sit flat on all four spacers with no loose screws or contact against the display electronics.",
+        "Arrange the two interconnects around the board edges, clear of GPIO pins. Leave slack for fitting the holder and rear plate without pulling on either socket.",
+        "Lift the complete unit by supporting the screen rim, not the Pi or cables. Set it aside on a clean, soft surface before cleaning and checking the printed parts."
+      ],
+      "check": "The screen and Pi are attached, HDMI and touch have passed the bench test, and the power supply is unplugged.",
+      "note": "The CAD views illustrate alignment. Actual spacer height, cooler, cable plugs, enclosure clearance and cooling require a physical check."
+    },
+    {
+      "title": "Prepare the Printed Parts",
+      "intro": "Set the assembled and tested screen/Pi unit aside while preparing the five printed parts. Keep the electronics away from print-cleanup dust.",
+      "actions": [
+        "Import the five STL files at 100% scale in millimetres. Centre each part on the build plate and check that it sits on the bed; several supplied files have offset coordinates.",
+        "The folder's source notes specify support-free printing in the supplied STL orientations. Inspect the slicer preview, particularly clips and bridges; STEP exports need orientation before slicing.",
+        "Remove brim, strings and loose material. Smooth only printing defects on mating edges; preserve the designed lips, tabs and latch shapes.",
+        "Dry-fit the stand connector to the base and inspect the case's retaining features. Do not force a tight fit against the glass. Correct the print before installing the screen."
+      ],
+      "check": "All five parts are clean, flat where intended, and free of cracked or obstructed retaining features.",
+      "note": "No universal material, layer-height or infill profile is supplied. Print shrinkage and tolerances must be checked on your own printer."
+    },
+    {
+      "title": "Seat the Connected Unit in the Case",
+      "intro": "Install the screen with the Pi already mounted and HDMI and USB touch already connected. Keep the Pi power supply unplugged.",
+      "actions": [
+        "Place front case A with its front rim supported on a clean, soft surface and its large rear opening facing up.",
+        "Hold the connected screen/Pi unit by the screen rim. Orient the glass toward the front opening and keep all cable loops clear of the seating edge.",
+        "Lower the complete unit into the case from the rear. Keep it square so the screen outer edge settles evenly against its internal seating lip.",
+        "Check the screen is centred and the Pi, cooler and connected plugs clear the shell. Stop if anything binds; lift the unit out and inspect the fit without forcing it."
+      ],
+      "check": "The connected unit sits evenly in the case; the glass, Pi and cables are free from pressure.",
+      "note": "The exploded spacing is illustrative. This guide does not establish a measured snap-fit clearance or a tested insertion force."
+    },
+    {
+      "title": "Fit the Screen Holder",
+      "intro": "Fit holder plate C around the already mounted Pi and connected leads. The holder retains the screen within the case.",
+      "actions": [
+        "Guide holder plate C around the Pi and its connected leads. Align TOP - HDMI PORT and USB PORTS with the screen connectors, then match the holder tabs to the case.",
+        "Keep the ring clear of the Pi, components and cable plugs. Engage the matching case features evenly by hand; do not use the board or glass as a pressure point.",
+        "Check the holder is seated and the screen remains located. Confirm HDMI and USB touch are still fully connected and no cable is caught under the ring.",
+        "Offer up rear plate D and route the Pi power lead through its cable exit. Keep the power supply unplugged and check the cover clears the cooler, plugs and cable bends."
+      ],
+      "check": "The holder retains the screen, both signal leads remain connected, and the Pi power lead exits freely.",
+      "note": "The printed enclosure uses slide/click features. The separate Pi-to-screen attachment uses the supplied spacers and screws."
+    },
+    {
+      "title": "Close the Back and Fit the Stand",
+      "intro": "Test the stand's two interfaces before loading them with the display. Keep the screen supported while engaging the rear cover.",
+      "actions": [
+        "After the Pi is mounted and all leads are clear, align rear plate D with the case. Keep the stand attachment downward and check the Pi, cooler and plugs clear the inside of the cover.",
+        "Engage the rear cover tabs and turn gently in the moulded CLOSE direction. Use the OPEN marking when removing it. Watch the perimeter so no cable or connector is pinched.",
+        "Align connector E with the receiving feature in base F and seat the matching tongue/slot connection. Check the connection holds before attaching the display.",
+        "Support the display and mate the connector's other end with the rear plate mount. Follow the direction allowed by the matching features; do not twist or hammer them together.",
+        "Place the assembly on a level desk. Support it as you check that the base sits flat, the display is retained and the cable slack does not pull the stand over."
+      ],
+      "check": "The cover is even, both stand joints hold, and the assembly remains stable when you gently use the touchscreen.",
+      "note": "This guide covers the desk build. Wall anchors, screw selection and wall load ratings have not been specified or verified."
+    },
+    {
+      "title": "Connect and Start AroundOS",
+      "intro": "The Pi is mounted behind the screen. Its USB-C socket receives power; HDMI and USB touch link it to the Waveshare display.",
+      "actions": [
+        "Check the Pi is retained on all four spacers. Confirm HDMI and USB touch are connected, the power lead exits freely, and the cooler and vents are unobstructed.",
+        "Reconnect power and boot Raspberry Pi OS Desktop. Confirm display and touch still work after closing the enclosure.",
+        "Check that the active display is HDMI-A-1 at 1080 x 1080, approximately 60 Hz, with scale 1. Keep a keyboard or SSH fallback for setup.",
+        "Follow the repository's Getting started instructions. Run the desktop installer as the normal desktop user inside the active desktop session, then install optional applications as needed.",
+        "Open the launcher and a few apps. Check touch at several visible positions, cable strain, stand stability and unobstructed Pi ventilation."
+      ],
+      "check": "AroundOS opens on the round display, touch works, and the assembled unit remains stable in normal use.",
+      "note": "AroundOS is an experimental desktop customization, not a flashable OS image. Fresh-device installation is not yet fully validated."
+    }
+  ]
+}

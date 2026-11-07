@@ -1,0 +1,115 @@
+@import url("/usr/share/themes/PiXonyx/gtk-3.0/gtk.css");
+
+@define-color theme_bg_color #1b2022;
+@define-color theme_base_color #121618;
+@define-color theme_fg_color #e8eeeb;
+@define-color theme_text_color #e8eeeb;
+@define-color theme_unfocused_bg_color #1b2022;
+@define-color theme_unfocused_base_color #121618;
+@define-color theme_unfocused_fg_color #96a39c;
+@define-color theme_selected_bg_color #a3f66a;
+@define-color theme_selected_fg_color #101810;
+@define-color theme_unfocused_selected_bg_color #344d31;
+@define-color theme_unfocused_selected_fg_color #e8eeeb;
+@define-color borders #343d38;
+@define-color bar_bg_color #1b2022;
+@define-color bar_fg_color #e8eeeb;
+@define-color dock_bg_color #1b2022;
+@define-color dock_fg_color #e8eeeb;
+@define-color bar_hover_color #303b32;
+@define-color dock_hover_color #303b32;
+@define-color bar_checked_color #344d31;
+@define-color dock_checked_color #344d31;
+@define-color notebook_bg_color #1b2022;
+@define-color notebook_tab_color #c8d3cc;
+@define-color tab_text_color #c8d3cc;
+
+* { transition: none; animation: none; -gtk-icon-shadow: none; text-shadow: none; }
+button, entry { border-radius: 10px; }
+button { padding: 7px 10px; }
+toolbar button.image-button, headerbar button.image-button, headerbar button.titlebutton { border-radius: 50%; padding: 6px; }
+entry { min-height: 32px; }
+/* The stock Control Centre measures all notebook pages, including hidden ones. */
+notebook { font-size: 14pt; }
+notebook button { padding: 6px 8px; }
+notebook > header, notebook > stack { background-color: #1b2022; }
+menuitem { min-height: 30px; padding: 5px 12px; }
+/* Let the desktop show through the GTK popup window around the menu corners. */
+window.popup, window.csd.popup > decoration {
+  background: transparent; border: none; box-shadow: none; outline: none;
+}
+menu {
+  background: #202023; color: #f5f5f7; padding: 8px;
+  border: 1px solid #45454b; border-radius: 38px;
+}
+menu > menuitem {
+  min-height: 56px; min-width: 208px; padding: 0 22px;
+  background: transparent; color: #f5f5f7;
+  border: 1px solid transparent; border-radius: 29px;
+  font-family: "Rubik", sans-serif; font-size: 20px;
+}
+menu > menuitem:hover, menu > menuitem:focus {
+  background: #30442c; border-color: #a3ed75; color: #f5f5f7;
+}
+menu > menuitem:disabled { color: #92929a; }
+menu > separator {
+  min-height: 1px; margin: 4px 16px; padding: 0; background: #343438;
+}
+scrollbar, scrollbar trough {
+  background: transparent; border: 0; box-shadow: none; padding: 0;
+}
+scrollbar slider {
+  background: rgba(200, 211, 204, 0.36); background-clip: padding-box;
+  border: 4px solid transparent; border-radius: 99px; box-shadow: none;
+}
+scrollbar.vertical slider { min-width: 4px; min-height: 28px; }
+scrollbar.horizontal slider { min-width: 28px; min-height: 4px; }
+scrollbar slider:hover { background-color: rgba(200, 211, 204, 0.62); }
+scrollbar slider:active { background-color: #a3ed75; }
+*:focus { outline-color: #a3f66a; }
+
+/* Glass bodies and curved placement are drawn by the native surface module. */
+#PanelToplevel, #DockToplevel {
+  background: transparent; border: 0; border-radius: 0; padding: 0; box-shadow: none;
+}
+#PanelToplevel > box, #DockToplevel > box {
+  margin: 0; padding: 0 18px; border: 0; background: transparent; box-shadow: none;
+}
+#PanelToplevel button {
+  min-width: 48px; min-height: 48px; padding: 0 4px; border: 0;
+  border-radius: 50%; background: transparent; box-shadow: none;
+}
+#PanelToplevel label { font-family: "Rubik"; font-size: 21px; }
+#PanelToplevel #clock label, #PanelToplevel label#clock { font-size: 23px; }
+#DockToplevel button {
+  min-width: 70px; min-height: 70px; padding: 0; border: 0;
+  border-radius: 50%; background: transparent; box-shadow: none;
+}
+#DockToplevel button:hover, #PanelToplevel button:hover,
+#DockToplevel button:checked, #PanelToplevel button:checked,
+#DockToplevel button:active, #PanelToplevel button:active,
+#DockToplevel button:focus, #PanelToplevel button:focus {
+  background: transparent; background-image: none; border-color: transparent;
+  box-shadow: none; outline-style: none;
+}
+#DockToplevel #launchers button:active, #DockToplevel #launchers button.dock-pressed {
+  background-color: rgba(163, 246, 106, 0.22);
+  box-shadow: inset 0 0 0 2px rgba(163, 246, 106, 0.72);
+}
+#DockToplevel #launchers button:active image, #DockToplevel #launchers button.dock-pressed image {
+  -gtk-icon-transform: scale(0.90);
+}
+#sysmenu label, #syssubmenu label { padding-right: 12px; }
+
+/* Squeekboard uses the same GTK theme but retains its native input method. */
+window#board { background: #121618; }
+#aroundos-notification { background: #1b2520; color: #edf5ee; border: 1px solid #455749; border-radius: 16px; padding: 14px; }
+#aroundos-notification label { color: #edf5ee; }
+
+/* Keep native dialog actions rectangular, including LXTerminal's quit prompt. */
+dialog .dialog-action-area button, messagedialog .dialog-action-area button,
+dialog .dialog-action-box button, messagedialog .dialog-action-box button,
+messagedialog .action-area button, dialog actionbar button,
+dialog button.text-button, messagedialog button.text-button {
+  border-radius: 0;
+}
